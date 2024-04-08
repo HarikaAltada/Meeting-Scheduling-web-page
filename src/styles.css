@@ -1,0 +1,24 @@
+/* src/styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* Adjust height as desired */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  /* Scrollbar thumb */
+  background-color: #ddd; /* Customize thumb background color */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  /* Thumb hover effect */
+  background-color: #888; /* Change thumb color on hover */
+}
